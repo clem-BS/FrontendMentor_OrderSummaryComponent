@@ -1,0 +1,20 @@
+body { background:url(../images/pattern-background-desktop.svg) top / cover hsl(225, 100%, 94%) no-repeat; font-family:'Red Hat Display', sans-serif; color:hsl(224, 23%, 55%); }
+div { border-radius:10px; }
+p { font-size:16px; margin:20px 0; }
+svg { vertical-align: middle; }
+button { font-family:'Red Hat Display', sans-serif; border-radius:6px; cursor:pointer; border:0; padding:5px 0; font-weight:700; background:none; }
+button.blue-btn { background-color:hsl(245, 75%, 52%); color:#fff; font-weight:900; }
+button.update-btn { color:hsl(245, 75%, 52%); font-size:14px; text-decoration:underline; }
+button.update-btn:hover { text-decoration:none; }
+button.classic-btn { color:hsl(224, 23%, 55%); }
+h1 { font-weight:900; color:hsl(223, 47%, 23%); margin:0; }
+.bg-grey { background-color:hsl(225, 100%, 98%); }
+.flex-container { display:flex; align-items:center; padding:20px 10px; }
+.flex-container > div { padding:0 10px; }
+
+.order-container { position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); max-width:450px; overflow:hidden; background-color:#fff; margin:0 auto; box-shadow:0 0 25px #999; }
+.order-summary { padding:40px 50px 20px; text-align: center; }
+.plan-description { flex-grow:1; text-align:left; padding-left:10px; }
+.plan-description .plan-title { color:hsl(223, 47%, 23%); font-weight:700; display:block; }
+.actions { margin-top:20px; }
+.actions button { display:block; width:100%; margin:5px 0; padding:20px 0; font-size:15px; }
